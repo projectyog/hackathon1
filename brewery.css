@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(110, 112, 112);
+}
+.container-fluid {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 243);
+    margin: 20px;
+    padding:20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(61, 61, 63);
+}
+@media (max-width: 800px) {
+    .design{
+      flex-direction: column;
+    }
+  }
+.design > h1 {
+    color:crimson
+}
+.design > h3 {
+    background-color: rgb(122, 202, 122);
+    width: 300px;
+}
+.searchbar {
+    height:100px;
+    width:auto;
+    text-align: center;
+    padding-top: 30px;
+    background-color: darkgray;
+    
+}
